@@ -1,0 +1,38 @@
+
+body {
+	background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/HD-Technology-Wallpaper-6.jpg");
+	
+}
+
+.page-header{color: silver;
+	width: 20%;
+}
+
+.col-sm-5{
+	color: lightgrey;
+	font-size: 20px;
+	background-color: rgba(0,0,0,.6);
+	
+}
+
+
+.col-sm-2{
+	color: silver;
+	font-size: 20px;
+
+}
+#gameScore{
+	color: gold;
+	font-size: 75px;
+	text-align: center;
+
+}
+#scoreText{
+	color: silver;
+	font-size: 20px;
+}
+
+#userScore{
+	color: gold;
+	font-size: 75px;
+}

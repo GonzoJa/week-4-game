@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BasicJavaScript</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	
+
+	<!-- jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+</head>
+ 
+ 	<body>
+
+
+
+	<div class="page-header">
+  <h1>CrystalCollector!! <small></small></h1>
+</div>
+
+	<div class="row">
+  <div class="col-sm-5">
+  	<p>You will be givien a random number at the start of the game!</p>
+  	<p>Ther eare four crystals below. By clicking on a crystal you will add a specific ampout of points to your total score.</p>
+  	<p>You will win the game by matching your total score to the random number, tou lose the game if your total score goes above the random number. </p>
+  	<p>The value of each crystal is hidden from you until you click on it.</p>
+  	<p>Each time when the game starts, the game will change the value of each crystal.</p>
+  </div>
+
+ 
+  <div class="col-sm-1">
+  	<p id="gameScore"></p>
+  </div>
+  <div class="col-sm-2">
+  	<p id="wins">Win :</p>
+  	<p id="losses">Losses :</p>
+  </div>
+  <div class="col-md-2">
+
+		<p id="scoreText">Your Score</p>
+	</div>
+	<div class="col-md-2">
+			<p id="userScore"></p>
+		</div>
+
+  
+</div>
+
+<div class="row">
+
+	<div class="col-sm-3" id="firstImage">
+
+		<P ><img src="./assets/images/4rlcn3k26dv31kyb2itwjdl72ejkfb.jpg"></P>
+	</div>
+	<div class="col-sm-3" id="secondImage">
+		<p> <img src="./assets/images/6507181_orig.jpg"></p>
+	</div>
+	<div class="col-sm-3" id="thirdImage">
+		<p><img src="./assets/images/platinum-small-xl-thb.jpg"></p>
+	</div>
+	<div class="col-sm-3" id="fourthImage">
+		<p> <img src="./assets/images/e44c0dfb4ffd5925897c0b9f80e22b.jpg"></p>
+	</div>
+	<div class="col-sm-0"></div>
+	</div>
+
+	
+
+
+	
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+
+	
+</body>
+</html>
